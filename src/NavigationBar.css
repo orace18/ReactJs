@@ -1,0 +1,35 @@
+/* Styling pour la barre de navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333; /* Couleur de fond de la barre de navigation */
+  padding: 10px 20px;
+  color: #fff; /* Couleur du texte */
+}
+
+/* Styling pour le logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Styling pour les liens de navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff; /* Couleur des liens */
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  border-bottom: 2px solid #fff; /* Effet de soulignement au survol */
+}

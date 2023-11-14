@@ -1,0 +1,19 @@
+.medical-layout {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .patient, .ai {
+    font-size: 3em;
+  }
+  
+  .patient {
+    color: #ffcccb; /* Couleur pour représenter le patient */
+  }
+  
+  .ai {
+    color: #00ff00; /* Couleur pour représenter l'intelligence artificielle */
+  }
+  
