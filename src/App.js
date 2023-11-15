@@ -1,14 +1,14 @@
 import React from 'react';
 import NavigationBar from './NavigationBar';
-import MedicalLayout from './Medical';
-
+import ThreeDAnimation from './Animation';
+import "./style.css"
 const App = () => {
   return (
     <div>
       <NavigationBar />
       {/* Le reste de votre contenu */}
       <section>
-        <MedicalLayout/>
+        <ThreeDAnimation/>
       </section>
     </div>
     

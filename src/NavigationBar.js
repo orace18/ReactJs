@@ -7,7 +7,7 @@ const NavigationBar = () => {
   return (
     <nav className="navbar">
       {/* Logo */}
-      <div className="logo">VallisTech</div>
+      <div className="logo">Orace</div>
 
       {/* Liens de navigation */}
       <ul className="nav-links">

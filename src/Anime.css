@@ -1,0 +1,22 @@
+
+.text-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: 300px;
+  color: #FFFF;
+  z-index: 1; /* Assurez-vous que le texte est au premier plan */
+}
+
+/* Ajoutez un style au conteneur principal pour positionner l'animation en arrière-plan */
+#threeDAnimation {
+  position: relative;
+}
+
+/* Assurez-vous que la toile 3D est en arrière-plan en réduisant la propriété z-index */
+#threeDAnimation canvas {
+  position: absolute;
+  z-index: 0;
+}
